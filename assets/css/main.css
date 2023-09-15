@@ -1,16 +1,16 @@
 :root {
-  font-family: "Inter", sans-serif;
 }
 
 *,
 *::before,
 *::after {
+  font-family: "Inter", sans-serif !important;
   box-sizing: border-box;
   line-height: 1.2;
 }
 
 html {
-  min-width: 375px;
+  min-width: 388px;
 }
 .body-1 {
   color: #717171 !important;
