@@ -807,9 +807,13 @@ footer h2 {
   }
 }
 
-@media (max-width: 576px) {
-}
-
 .new-img {
   width: 100%;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: var(--brand-primary, #4caf4f);
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
 }
